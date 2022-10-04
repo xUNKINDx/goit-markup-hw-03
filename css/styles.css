@@ -64,8 +64,6 @@ a:link
 }
 
 .main-nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: flex;
     align-items: center;
 }
@@ -103,6 +101,8 @@ a:link
 /* кнопки в шапке */
 
 .page-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
     background: var(--primary-wight-color)
 }
 
@@ -137,11 +137,6 @@ a:link
 
 .site-nav .link.current {
     color: var(--accent-color);
-}
-
-.auth-nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .auth-nav .item + .item {
@@ -182,9 +177,13 @@ a:link
     background-color: #2F303A;
 }
 
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .hero .hero-title {
     width: 696px;
-    margin-top: 106px;
     margin-right: auto;
     margin-bottom: 30px;
     margin-left: auto;
@@ -202,7 +201,6 @@ a:link
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 106px;
     padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
