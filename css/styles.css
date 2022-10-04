@@ -54,6 +54,10 @@ ul {
     /* outline: 2px solid tomato; */
 }
 
+img {
+    display: block;
+}
+
 a:link
 {
     text-decoration: none;
@@ -62,6 +66,7 @@ a:link
 .button {
     border: 1px solid transparent;
 }
+
 
 .main-nav {
     display: flex;
